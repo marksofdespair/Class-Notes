@@ -12,6 +12,7 @@ let exArrayThree = ["Consider this TINY!", "Consider this LARGE!"];
 let sentenceCause = "This Morphs This String by... ";
 let thisIsBreaker = "--------------------------------------------";
 
+//This isn't really intended to do anything other than exist as an if/else statement lol
 if(todaysDate === "Friday the 15th, September 2023"){
     console.log("You are viewing today's notes.");
 } else {
