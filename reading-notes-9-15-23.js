@@ -43,7 +43,7 @@ console.log(thisIsEx + " " + todaysReading[2]);
 
 console.log(" ");
 
-console.log(`${thisIsNte}. Strings are objects. Objects are collections of related data and operations.`);
+console.log(`${thisIsNte}. Strings are objects. \n\tObjects are collections of related data and operations.`);
 console.log(`${thisIsNte}. An operation that can be carried out on an object is known as a method.`);
 console.log(`${thisIsNte}. A piece of data associated with an object is known as a property.`);
 
@@ -106,3 +106,15 @@ console.log(favoriteAnimal.charCodeAt(3));
 let animalCode = [87,111,108,102];
 let animalChar = String.fromCharCode(animalCode[0]) + String.fromCharCode(animalCode[1]) + String.fromCharCode(animalCode[2]) + String.fromCharCode(animalCode[3]);
 console.log(animalChar);
+
+//I went back and hid the 'examples'/notes for special characters section through the whole notes :] And will do so going forward. Good luck, future me!
+//Template literals...there's not much to say about them, as I've been using them the whole time, although we can include an example.
+
+console.log(" ");
+let name = "Bear";
+let currentAge = 6;
+
+console.log(`${thisIsNte} regarding Template Literals.`);
+console.log(`${thisIsEx} Right now, ${name} is ${currentAge}. Next year, he will be ${currentAge + 1} (Next year I will be very sad).`);
+
+/* They also allow us to create multi-line strings without using string concatenation or special characters. */
