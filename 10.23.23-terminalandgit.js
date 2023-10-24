@@ -28,3 +28,24 @@ Covered in textbook, will come back to this (who am I kidding, 5% chance I remem
 -cat will display the contents of a file
 */
 
+console.log("-------------------------------------------------")
+//Version Control
+/*
+-Version control system (VCS) lets us keep track of different veresions of the code you've created
+-Will be using GIT in class, most widely used VCS
+-Git repos encapsulates code we wish to track
+-Dont worry about branches or merging yet (except I have to bc im dumb and made one)
+*/
+
+//Basics of GIT
+/*
+-If the default branch is set to master you can change master to main with the command git branch -m main
+-A commit is a snapshot of the version you have right now, with any changes since the last commit
+-Make commits often
+-Use the process:
+---git status /to check which fules need to be staged
+---git add filename1 filename2 /to stage, or git add. will state everything
+---git status /again to verify what has been staged
+---git commit -m "some message" /to describe changes made
+*/
+
